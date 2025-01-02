@@ -40,7 +40,35 @@ li{
     display: inline;
 }
 
+.main_block{
+    margin-left: 10%;
+}
+
+.main_block .block{
+    float: left;
+    width: 20%;
+    display: inline;
+    height: 20%;
+}
+
 .main_block .block img{
     height: 40px;
     width: 40px;
+}
+
+.img_projects{
+    position: relative;
+    right: -5%;
+}
+
+.img_projects img{
+    border: 3px violet solid;
+    border-radius: 10px;
+    width: 15%;
+    height: 20vh;
+    margin: 0 0.5%;
+}
+
+.footer{
+    float: left;
 }
