@@ -6,22 +6,22 @@
     font-family: "Montserrat", serif;
 }
 
-
 body{
-    background-color: rgba(221, 221, 221, 0.558);
+    background-color: rgba(235, 235, 235, 0.86);
     color: rgb(0, 0, 0);
+    width: 100%;
 }
 
 .header{
-    background-color: rgba(119, 119, 120, 0.473);
+    background-color: rgb(208, 208, 208);
     width: 100%;
-    height: 10%;
     line-height: 70px;
 }
 
 .header .links{
     position: relative;
-    right: -50%;
+    right: -45%;
+    width: 40%;
     font-size: 12px;
     font-weight: 800;
     text-transform: uppercase;
@@ -29,7 +29,9 @@ body{
 
 .header .links li{
     margin: 20px;
+    font-size: 10px;
 }
+
 a.active{
     color: rgb(0, 60, 255);
 }
@@ -50,39 +52,70 @@ li{
 }
 
 .main_block{
+    width: 80%;
     margin-left: 10%;
-    margin-top: 2.5%;
+    margin-top: 9%;
 }
 
 .main_block .block{
     float: left;
-    width: 20%;
+    width: 25%;
     margin-left: 5%;
     display: inline;
     height: 20%;
 }
 
 .main_block .block img{
-    height: 40px;
-    width: 40px;
+    height: 20px;
+    width: 20px;
+}
+
+.main_block .block h3{
+    margin-left: 20px;
+}
+
+.main_block .block p{
+    color: rgb(59, 59, 59);
+    font-size: 12px;
+}
+
+.main_block .block a{
+    margin-bottom: -10%;
+}
+.main_block .block p{
+    margin-bottom: 4%;
 }
 
 .footer{
-    margin-left: 10%;
-    margin-top: 5%;
+    margin-left: 15%;
+    margin-top: 8%;
     float: left;
+    width: 85%;
+}
+
+.footer .open{
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.footer .fprojects{
+    position: relative;
+    left: 60%;
+    margin-bottom: 0.5%;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 800;
+    width: 10%;
 }
 
 .img_projects{
-    position: relative;
-    right: -5%;
-    top: 2.5%;
+    margin-left: 5%;
 }
 
 .img_projects img{
-    border: 3px violet solid;
+    border: 3px rgb(182, 93, 231) solid;
     border-radius: 10px;
-    width: 15%;
+    width: 10vw;
     height: 20vh;
     margin: 0 0.5%;
 }
